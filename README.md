@@ -3,7 +3,7 @@
 ## Enlaces de la API
 
 
-###Crear usuario
+### Crear usuario
 (POST)/api/usuario/
 {
     "nombre":"Felipe",
@@ -17,7 +17,7 @@
     "numero":"5424427427538352",
     "fecha_vencimiento":"2023-02-23"
 }
-
+### Asociar tarjeta a usuario
 (POST) /api/tarjeta/asociar_tarjeta/
 {
     "usuarioid":"1",
